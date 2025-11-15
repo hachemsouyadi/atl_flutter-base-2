@@ -17,9 +17,16 @@ title: Text('Atelier 2'),
 centerTitle: true,
 backgroundColor: Colors.blueAccent,
 ),
-body: Center(
-          child: Text('Bienvenue dans cet atelier!'),
-
+body: Container(
+alignment: Alignment.topCenter,
+child: Column(
+children: [
+SizedBox(height: 20),
+Text(
+'Bienvenue dans cet atelier !',
+)
+]         
+)
       
         ),
       ),
